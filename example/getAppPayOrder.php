@@ -5,7 +5,7 @@
  * Date: 2017/2/28
  * Time: 10:06
  */
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 $aop = new \App\Aop\AopClient();
 $aop->gatewayUrl = "https://openapi.alipay.com/gateway.do";
