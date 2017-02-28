@@ -1,5 +1,5 @@
 <?php
-namespace App\aop;
+namespace App\Aop;
 
 require_once 'AopEncrypt.php';
 

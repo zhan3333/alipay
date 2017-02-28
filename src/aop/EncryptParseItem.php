@@ -6,7 +6,7 @@
  * Date: 16/3/30
  * Time: 下午8:55
  */
-namespace App\aop;
+namespace App\Aop;
 
 class EncryptParseItem {
 

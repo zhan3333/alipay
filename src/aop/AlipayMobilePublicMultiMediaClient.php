@@ -1,5 +1,5 @@
 <?php
-namespace App\aop;
+namespace App\Aop;
 
 /**
  * 多媒体文件客户端
