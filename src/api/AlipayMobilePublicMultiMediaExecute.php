@@ -1,5 +1,5 @@
 <?php
-namespace App\Aop;
+namespace Payment\api;
 
 /**
  * 多媒体文件客户端

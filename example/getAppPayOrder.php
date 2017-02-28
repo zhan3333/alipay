@@ -7,7 +7,7 @@
  */
 require_once '../vendor/autoload.php';
 
-$aop = new \App\Aop\AopClient();
+$aop = new \Payment\api\AopClient();
 $aop->gatewayUrl = "https://openapi.alipay.com/gateway.do";
 $aop->appId = "2017021705720667";
 $aop->rsaPrivateKey = file_get_contents(__DIR__ . '/key/rsa_private_key') ;
@@ -16,7 +16,7 @@ $aop->charset = "UTF-8";
 $aop->signType = "RSA2";
 $aop->alipayrsaPublicKey = file_get_contents(__DIR__ . '/key/ali_pay_rsa_public_key');
 //实例化具体API对应的request类,类名称和接口名称对应,当前调用接口名称：alipay.trade.app.pay
-$request = new \App\Aop\request\AlipayTradeAppPayRequest();
+$request = new \Payment\api\request\AlipayTradeAppPayRequest();
 //SDK已经封装掉了公共参数，这里只需要传入业务参数
 $bizcontent = "{\"body\":\"我是测试数据\","
     . "\"subject\": \"App支付测试\","

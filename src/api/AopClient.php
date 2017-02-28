@@ -1,5 +1,5 @@
 <?php
-namespace App\Aop;
+namespace Payment\api;
 
 require_once 'AopEncrypt.php';
 
