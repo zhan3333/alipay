@@ -31,7 +31,7 @@ return [
 ```
 
 # 创建订单
-```
+```php
 <?php
 require_once '../vendor/autoload.php';
 
